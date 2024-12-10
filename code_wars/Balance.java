@@ -1,4 +1,4 @@
-public class balance {
+public class Balance {
 
     public static String balance(String book) {
         String cleanedBook = book.replaceAll("[^a-zA-Z0-9.\\n ]", "");
