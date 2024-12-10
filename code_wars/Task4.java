@@ -1,5 +1,5 @@
 public class Task4 {
-  {
+  
     public static int[] squareOrSquareRoot(int[] array) {
         int[] resArray = new int[array.length];
         for (int i = 0; i < array.length; i++) {
@@ -12,5 +12,5 @@ public class Task4 {
         }
         return resArray;
     }
-  }
+}
 
