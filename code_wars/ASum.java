@@ -6,7 +6,7 @@ public class ASum {
 
         while (totalValue < m) {
             n++;
-            totalValue += Math.pow(n, 3);
+            totalValue += n * n * n;
             if (totalValue == m) {
                 return n;
             }
